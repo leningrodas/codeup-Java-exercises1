@@ -80,13 +80,13 @@ public class ConsoleExercises {
 ////****walk through****
 
         System.out.println("enter a number for width and length");
-        int length =  scanner.parseInt();
-        int width = scanner.parseInt();
+        int length =  scanner.nextInt();
+        int width = scanner.nextInt();
 
         int area = length * width;
         int perimeter = (length * 2) + (width * 2);
 
-        system.out.printf("the area for classroom is: %d %n", area);
+        System.out.printf("the area for classroom is: %d %n", area);
         System.out.printf("the perimeter for classroom is %d %n", perimeter);
 
 
