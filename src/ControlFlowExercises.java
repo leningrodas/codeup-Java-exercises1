@@ -1,20 +1,19 @@
-
-
 public class ControlFlowExercises {
     public static void main(String[] args) {
 
         //exercise 1 loop  basics
-//            int i;
-//            i = 5;
+            int i;
+            i = 5;
 
-//            while (i <= 15) {
-//                System.out.print(i++);
-//            }
-//
+            while (i <= 15) {
+                System.out.print(i++);
+                System.out.print(" ");
+            }
+
 
         //exercise 2 do while
 
-        //2.a
+        //b.a
 //               int x = 2;
 //            do {
 //                if((x&1) ==0){
@@ -23,7 +22,16 @@ public class ControlFlowExercises {
 //                x++;
 //            } while (x<=100);
 
-        //2.b
+           // ***walk through
+//        int counter = 0;
+//            do {
+//                System.out.println(counter);
+//                counter += 2;
+//            }while(counter <= 100);
+//
+//
+
+        //b.2
 
 //                int x = 5, n = 100;
 //
@@ -34,7 +42,14 @@ public class ControlFlowExercises {
 //
 //        }
 
-//2.3
+//        ***walkthrough
+//        int counter = 100;
+//        do {
+//            System.out.println(counter);
+//            counter -= 5;
+//        }while(counter <= 1-0);
+//
+//                  ****b.3
 
 //        int k = 2;
 //        do {
@@ -45,6 +60,20 @@ public class ControlFlowExercises {
 //       for (int b = 2; b <= 1000000; b++){
 //           System.out.println(b*b);
 //       }
+
+//        ********walkthrough
+
+//        long start =2;
+//            do{
+//                System.out.println(start);
+//                start *= start;
+//            } while(start < 1000000);
+//
+//
+
+
+
+
 
 
         ///question 2s
