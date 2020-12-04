@@ -12,11 +12,11 @@ public class bob {
         String whatEv = "Whatever.";
         String empty = userInput.nextLine();
 
-        if (userInput.equals("?")) {
+        if (userInput.endsWith("?")) {
             System.out.println(question);
-        } else if (userInput.equals("!")) {
+        } else if (userInput.endsWith("!")) {
             System.out.print(endsWithExclam);
-        } else if (userInput.equals(empty)) {
+        } else if (userInput.endsWith(empty)) {
             System.out.println(dontSay);
         }
 
