@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class consoleIolecture {
     public static void main(String[] args) {
@@ -94,18 +94,18 @@ public class consoleIolecture {
         // The Scanner class allows us to get data input that the user enters into the console.
         // Scanner Docs ==> http://www.cs.utexas.edu/users/ndale/Scanner.html
 
-        Scanner userInput = new Scanner(System.in);
+//        Scanner userInput = new Scanner(System.in);
 
 
         // >>>> .next() method
         // .next() captures each input usually signified by whitespace. The input is returned as a string
 
-        System.out.println("please enter your first and last name");
-        String firstName = userInput.next();
-        String lastName = userInput.next();
-
-        System.out.println(firstName);
-        System.out.println(lastName);
+//        System.out.println("please enter your first and last name");
+//        String firstName = userInput.next();
+//        String lastName = userInput.next();
+//
+//        System.out.println(firstName);
+//        System.out.println(lastName);
 
         // >>>> .nextInt() method
         // .nextInt() captures the first valid int value
