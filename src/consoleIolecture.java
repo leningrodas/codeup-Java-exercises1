@@ -86,7 +86,7 @@ public class consoleIolecture {
 //            int currencyPennies = 100000;
 //
 //            System.out.printf("i'll sell you land for $%.4f an acre %n", currencyPennies/100.00);
-stest
+
 
         /* ***************************************
                         USER INPUT
