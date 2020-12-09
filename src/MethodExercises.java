@@ -39,14 +39,14 @@ public class MethodExercises {
 //
 //    ;
 //
-//    public static void getInterger(int min, int max, int userInput) {
-//        if (userInput >= min && userInput <= 10) {
-//            System.out.println("Great you are within range ");
-//        } else {
-//            System.out.println("you are out of scope. bye felicia");
-//        }
-//
-//    }
+    public static void getInterger(int min, int max, int userInput) {
+        if (userInput >= min && userInput <= 10) {
+            System.out.println("Great you are within range ");
+        } else {
+            System.out.println("you are out of scope. bye felicia");
+        }
+
+    }
 
 
     //    public long factorialinput(int n) {
