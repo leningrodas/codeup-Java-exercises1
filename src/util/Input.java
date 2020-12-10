@@ -53,6 +53,9 @@ public class Input {
 
     }
 
-
+    public double getDouble(){
+        System.out.println("enter a number");
+        return scanner.nextDouble();
+    }
 
 }
