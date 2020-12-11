@@ -3,11 +3,13 @@ import java.util.Arrays;
 public class ArraysExercises {
 
     
-//    public static Person[] addPersons(Person[] threePeeps, Person person) {
-//        people = Arrays.copyOf(threePeeps, threePeeps.length + 1);
-//        people[threePeeps.length -1] + person;
-//        return people;
-//    }
+    public static Person[] addPerson(Person[] threePeeps, Person person){
+        threePeeps = Arrays.copyOf(threePeeps, threePeeps.length + 1);
+        threePeeps[threePeeps.length - 1] = person;
+        return threePeeps;
+    }
+
+
 
     public static void main(String[] args) {
 
@@ -24,7 +26,11 @@ public class ArraysExercises {
         for (Person people : threePeeps) {
             System.out.println(people.getName());
         }
-
-
+        Person person = new Person("Ryan");
+        threePeeps = addPerson(threePeeps, person);
+//
+        for (Person people : threePeeps){
+            System.out.println(people.getName());
+        }
     }
 }
