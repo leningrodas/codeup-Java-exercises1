@@ -8,9 +8,9 @@ public class MoviesApplication {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Movies movie1 = new Movies();
-
-
+//        Movies movie1 = new Movies();
+//
+//
 
 
 
