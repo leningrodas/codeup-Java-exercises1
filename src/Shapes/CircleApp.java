@@ -21,13 +21,13 @@ public class CircleApp {
 
         System.out.println(test.getCircumference());
 
-//        double numRadius = test.GetRadius();
-//
-//        test.setRadius(numRadius);
-//
-//        System.out.println(test.getArea());
-//
-//        System.out.println(test.getCircumference());
+        double numRadius = test.GetRadius();
+
+        test.setRadius(numRadius);
+
+        System.out.println(test.getArea());
+
+        System.out.println(test.getCircumference());
 
     }
 

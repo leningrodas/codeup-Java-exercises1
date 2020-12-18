@@ -31,30 +31,30 @@ public class Input {
                 userString.equalsIgnoreCase("yes");
     }
 
-//   public int getInt (int min, int max){
-//        int user;
-//        do {
-//            System.out.println("User, input a number and if it is within rage. you may go on.");
-//            user = Integer.valueOf(getString());
-//        } while(user>=min && user <= max);
-//        return user;
-//            };
+   public int getInt (int min, int max){
+        int user;
+        do {
+            System.out.println("User, input a number and if it is within rage. you may go on.");
+            user = Integer.valueOf(getString());
+        } while(user>=min && user <= max);
+        return user;
+            };
 
 
-//    public void getDouble(double min, double max){
-//        System.out.println("user, input a number to test your worth");
-//
-//        double user = Double.valueOf(getString());
-//        try {
-//            if (user >= min && user <= max) {
-//                System.out.println("great you are worthy");
-//            } else {
-//                System.out.println("you are not worthy");
-//            }
-//         } catch (NumberFormatException e){
-//            System.out.println("format incorrect");
-//        }
-//    }
+    public void getDouble(double min, double max){
+        System.out.println("user, input a number to test your worth");
+
+        double user = Double.valueOf(getString());
+        try {
+            if (user >= min && user <= max) {
+                System.out.println("great you are worthy");
+            } else {
+                System.out.println("you are not worthy");
+            }
+         } catch (NumberFormatException e){
+            System.out.println("format incorrect");
+        }
+    }
 
     public double getDouble(){
         try {
