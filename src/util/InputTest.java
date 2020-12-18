@@ -5,10 +5,10 @@ public class InputTest {
 
 
       Input test = new Input();
-        test.getString();
-        test.yesNo();
-        test.getInt(1, 10);
-        test.getDouble(1,20);
+//        test.getString();
+//        test.yesNo();
+        test.getInt();
+//        test.getDouble(1,20);
 
 
     }
